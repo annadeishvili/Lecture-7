@@ -6,3 +6,64 @@
     background-position: center;
     background-size:cover; 
 }
+.air{
+	 position: absolute;
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    animation: air 50s infinite alternate;
+}
+@keyframes air {
+   0%{left: 0px;}
+   20%{left:200px; transform: rotate(0deg);}
+   40%{left: 400px; transform: rotate(0deg);}
+   60%{left: 600px; top: 300px; transform: rotate(0deg);}
+   80%{left: 800px; transform: rotate(0deg);}
+   100%{left: 1050px; transform: rotate(0deg);}
+}
+.minnie{
+	position:absolute;
+	top: 500px;
+	width: 100px;
+	height: 150px;
+	right: 200px;
+	animation-direction: alternate;
+	animation:minnie 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes minnie {
+  from {right:200px}
+  to {left:600px;}
+}
+.mickey{
+	position:absolute;
+	top: 440px;
+	width: 220px;
+	height: 200x;
+	left: 240px;
+	animation-direction: alternate;
+	animation:mickey 6s infinite;
+    animation-timing-function: linear;
+}
+@keyframes mickey {
+  from {right: 700px}
+  to {left:500px;}
+}
+.rainbow{
+	position: absolute;
+	top: 0px;
+	width: 800px;
+	height: 400px;
+	right: 200px;
+	animation-direction: alternate;
+	animation:rainbow 3s infinite alternate;
+}
+@keyframes rainbow {   
+  0%{left: 0px;}
+   20%{top:2px; transform: rotate(0deg);}
+   40%{left: 10px; transform: rotate(0deg);}
+   60%{left:12px; transform: rotate(0deg);}
+   80%{left: 14px; transform: rotate(0deg);}
+   100%{left: 16px; transform: rotate(0deg);}
+}
