@@ -1,0 +1,8 @@
+.imagination {
+	width:100%;
+	height:800px;
+	background-image: url(../images/micky.jpg);
+	background-color: darkred; 
+    background-position: center;
+    background-size:cover; 
+}
