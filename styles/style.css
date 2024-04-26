@@ -43,7 +43,7 @@
 	height:200x;
 	left: 240px;
 	animation-direction: alternate;
-	animation:mickey 6s infinite;
+	animation:mickey 10s infinite;
     animation-timing-function: linear;
 }
 @keyframes mickey {
@@ -57,7 +57,7 @@
 	height:400px;
 	right: 200px;
 	animation-direction: alternate;
-	animation:rainbow 3s infinite alternate;
+	animation:rainbow 5s infinite alternate;
 }
 @keyframes rainbow {   
   0%{left:0px;}
